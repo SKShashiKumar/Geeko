@@ -1,0 +1,20 @@
+*{
+	background-color: black;
+	color: black;
+}
+
+div{
+	display: grid;
+	place-items: center;
+	width: 99vw;
+	height: 97.7vh;
+	font-family: monospace;
+	font-size: 50px;
+	font-weight: bolder;
+	background-color: dodgerblue;
+}
+
+#mainContent:hover{
+	background-color: gray;
+	cursor: pointer;
+}

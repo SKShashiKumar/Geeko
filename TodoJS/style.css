@@ -1,0 +1,84 @@
+body{
+    font-family: monospace;
+    background: linear-gradient(to right, #314755, #26a0da);
+}
+
+.heading{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin: 2% 5% 5% 5%;
+}
+
+.col{
+    justify-content: end;
+}
+
+h1{
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+li{
+  display: grid;  
+  grid-template-columns: 90% 10%;
+  margin: 20px;
+  text-justify: auto;
+}
+
+
+li:hover,.xBtn:hover{
+    cursor: pointer;
+}
+
+.xBtn{
+    max-height: 45px;
+    background: none;
+    border: none;
+}
+
+#todos{
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    background-color: rgb(91, 129, 150);
+    border: 0.5px solid rgb(118, 172, 201);
+    color: rgb(20, 34, 25);
+}
+
+.listTodos{
+    color: navy;
+}
+
+input[type='submit'],input[type='button']  {
+    background-color: rgb(13, 83, 22);
+    color: white;
+    margin:20px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+input[value='Clear all']{
+    background-color: red;
+    color: white;
+}
+
+input[type='button'],input[type='submit']{
+    cursor: pointer;
+}
+
+
+button{
+    border-radius:10%   ;
+}
+
+#toastMessages{
+    color: yellow;
+    font-size: 15px;
+}

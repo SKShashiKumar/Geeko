@@ -1,0 +1,43 @@
+*{
+	background-color: rgb(0, 0, 0);
+	color: navy;
+	font-family: monospace;
+}
+
+div{
+	display: grid;
+	place-items: center;
+	margin-top: 10%;
+	width: 99vw;
+}
+
+button{
+	padding: 10px 20px 10px 20px;
+	background-color: dodgerblue;
+	color: white;
+	border: solid white 1px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 20px;
+	box-shadow: 0.5px 0.5px 5px white;
+}
+
+#onclickedDom{
+	background-color: rgba(58,83,155,1);
+	color: white;
+
+}
+
+#usingEventListner{
+	background-color: #36D7B7;
+	color: #222222;
+}
+
+button:hover,
+#usingEventListner:hover,
+#onclickedDom:hover {
+	background-color: white;
+	color: navy;
+	cursor: pointer;
+	box-shadow: 3px 3px 10px dodgerblue;
+}

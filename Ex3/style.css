@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    font-family: monospace;
+}
+
+.xBtn{
+    background-color: rgb(198, 160, 248);
+    margin:20px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border: 1px solid navy;
+}
+
+.xBtn:hover{
+    background-color: rgb(70, 13, 134);
+    color: whitesmoke;
+    box-shadow:5px 5px 15px turquoise;
+}
+
+li{
+    list-style-type: square;
+    color: blanchedalmond;
+    font-size: 20px;
+
+}

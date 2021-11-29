@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Exercise 1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="Center-Element">
+		<button onclick="alert('Hey there')">Click Me.!!!</button>
+	</div>
+		<div class="Center-Element">
+		<button id="onclickedDom">Click Me.!!!</button>
+	</div>
+		<div class="Center-Element">
+		<button id='usingEventListner'>Click Me.!!!</button>
+	</div>
+</body>
+<script type="text/javascript">
+	document.getElementById('onclickedDom').onclick = function () {
+		alert("Hey there")
+	}
+
+	document.getElementById('usingEventListner').addEventListener('click',function() {
+		alert("Hey there")
+	})
+</script>
+</html>

@@ -1,0 +1,119 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.darkmode{
+    font-size: 20px;
+    margin-right:5% ;
+    text-align: right;
+    font-weight: 500;
+}
+
+.box{
+    background-color: white;
+    margin: 0 15% 0 30%;
+    padding: 2%;
+    width: 35%;
+    border: 1px solid rgb(204, 202, 202);
+    box-shadow: 5px 5px 5px 2px rgb(192, 191, 191); 
+}
+
+.login{
+    font-family:monospace;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    /* color: linear-gradient(rgb(228,105,92), rgb(205,69,119)); */
+    background-color: #f3ec78;
+    background-image: linear-gradient(to right,rgb(243, 79, 61), rgb(160, 23, 202));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+}
+
+.username label{
+    color: rgb(155, 147, 155);
+}
+
+.passwords label{   
+    color: rgb(155, 147, 155);
+}
+
+.username input{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 95%;
+    border: none;
+}
+
+.passwords input{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 95%;
+}
+
+.checkboxes{
+    text-align: left;
+}
+
+.forgot{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    font-family:monospace;
+    background-image: linear-gradient(to right,rgb(228,105,92), rgb(205,69,119));
+    color: white;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0.5px none;
+}
+
+.other_option{
+    text-align: center;
+}
+
+.grDash{
+    color: thistle;
+}
+
+.grSpan{
+    color: rgb(129, 127, 127);
+}
+
+.google{
+    margin: 10px;
+    padding: 5px;
+    box-shadow:5px 5px 5px grey; 
+}
+
+.facebook{
+    margin: 10px;
+    padding: 10px;
+    box-shadow:5px 5px 5px grey; 
+
+}
+
+.footer{
+    text-align: center;
+}
+
+.content{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
